@@ -1,0 +1,185 @@
+h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
+    color: black;
+    
+}
+h2.alt {
+    color: black;
+}
+
+h2.alt strong {
+    color: black;
+}
+header > p {
+        margin: 1em 0 0 0;
+}
+strong, b {
+    color: #666;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit;
+}
+em, i {
+    font-style: italic;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+    -moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+    -webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+    -ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+    outline: 0;
+}
+a:hover {
+    color: #E27689;
+    border-bottom-color: rgba(255, 255, 255, 0);
+}
+blockquote {
+    border-left: solid 0.5em #ddd;
+}
+.image.avatar48 {
+    background: #f00;
+}
+form input[type="text"]:focus,
+		form input[type="email"]:focus,
+		form input[type="password"]:focus,
+		form select:focus,
+		form textarea:focus {
+			box-shadow: 0 0 2px 1px #8ebebc;
+			background: #fff;
+}
+table tbody tr:nth-child(2n+2) {
+    background: #f4f4f4;
+}
+form ::-webkit-input-placeholder {
+    color: #555 !important;
+}
+
+form :-moz-placeholder {
+    color: #555 !important;
+}
+
+form ::-moz-placeholder {
+    color: #555 !important;
+}
+
+form :-ms-input-placeholder {
+    color: #555 !important;
+}
+input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button:hover,
+		.button:hover {
+			background-color: #9ececc;
+}
+
+input[type="button"]:active,
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		button:active,
+		.button:active {
+			background-color: #7eaeac;
+}
+.item header {
+    background: #fff;
+}
+
+table thead {
+    background: #444;
+    color: #fff;
+}
+
+table tfoot {
+    background: #eee;
+}
+table th {
+    color: #fff;
+    background: #222729 url("images/overlay.png");
+}
+.icon {
+    text-decoration: none;
+}
+#header {
+    background: #222629 url("images/overlay.png");
+    box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+#header .icons a {
+    color: #41484c;
+    -moz-transition: color 0.35s ease-in-out;
+    -webkit-transition: color 0.35s ease-in-out;
+    -ms-transition: color 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out;
+}
+#header .icons a:hover {
+    color: #fff;
+}
+#logo h1 {
+    color: #fff;
+}
+#logo p {
+    color: rgba(255, 255, 255, 0.5);
+}
+#nav ul li a {
+    color: rgba(255, 255, 255, 0.5);
+}
+#nav ul li a span:before {
+    color: #41484c;
+}
+#nav ul li a.active {
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
+    color: #fff;
+}
+#nav ul li a.active span:before {
+    color: #e27689;
+}
+#footer {
+    background-color: #dce3e2;
+    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+}
+#footer .copyright li {
+    border-left: solid 1px rgba(128, 128, 128, 0.35);
+}
+#main > section {
+    background-image: url("images/overlay.png");
+    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+}
+#main > section.dark {
+    color: #000000;
+    /* color: rgba(255, 255, 255, 0.75); */
+}
+#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+    /* color: inherit; */
+}
+#main > section.dark strong {
+    /* color: #fff; */
+    border-color: inherit;
+}
+
+#main > section.dark a {
+    /* color: #fff; */
+    border-color: inherit;
+}
+
+#main > section.dark a:hover {
+        border-bottom-color: rgba(255, 255, 255, 0);
+}
+#main > section.one {
+    background-color: #81918E;
+    background-image: url("/images/banner.jpg");
+}
+
+#main > section.two {
+    background-color: #f5fafa;
+}
+
+#main > section.three {
+    background-color: #ecf1f1;
+}
+
+#main > section.four {
+    background-color: #e8edec;
+}
